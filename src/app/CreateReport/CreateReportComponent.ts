@@ -26,7 +26,6 @@ export class CreateReport implements OnInit {
     location: "",
     desc: "",
     img: "",
-    time: new Date().toLocaleTimeString(),
     id: localStorage.getItem('userId')
   };
 
